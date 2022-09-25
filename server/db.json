@@ -1,0 +1,49 @@
+{
+  "observability": [
+    {
+      "x-correlation-id": "1645168563324-b91eaf5b",
+      "x-usecase-id": "8486e8a7-82c9-a258-d61a-8992e48d2538",
+      "screen": "/",
+      "type": "change_screen",
+      "time": "6.10ms",
+      "status": "success",
+      "id": 1
+    },
+    {
+      "x-correlation-id": "1645168563324-b91eaf5b",
+      "x-usecase-id": "8486e8a7-82c9-a258-d61a-8992e48d2538",
+      "screen": "/login",
+      "type": "change_screen",
+      "time": "17.90ms",
+      "status": "success",
+      "id": 2
+    },
+    {
+      "x-correlation-id": "1645168583257-39b0fc33",
+      "x-usecase-id": "5400cf4c-8f5b-4eee-64e0-8eca86732464",
+      "screen": "/login",
+      "type": "change_screen",
+      "time": "15.20ms",
+      "status": "success",
+      "id": 3
+    },
+    {
+      "x-correlation-id": "1645168583257-39b0fc33",
+      "x-usecase-id": "5400cf4c-8f5b-4eee-64e0-8eca86732464",
+      "screen": "/home",
+      "type": "change_screen",
+      "time": "2.70ms",
+      "status": "success",
+      "id": 4
+    },
+    {
+      "x-correlation-id": "1645168658325-fafc3d9a",
+      "x-usecase-id": "9ba0aa14-0d34-55ad-24c2-bf888cebde51",
+      "screen": "/home",
+      "type": "change_screen",
+      "time": "11.30ms",
+      "status": "success",
+      "id": 5
+    }
+  ]
+}
