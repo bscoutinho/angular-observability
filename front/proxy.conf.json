@@ -1,0 +1,42 @@
+{
+    "/home": {
+      "target": "https://api-dev.dev.heytelecom.be/api/log-events/v1/log",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/home": ""
+      }
+    },
+    "/login": {
+      "target": "https://api-dev.dev.heytelecom.be/api/log-events/v1/log",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/login": ""
+      }
+    },
+    "/register": {
+      "target": "https://api-dev.dev.heytelecom.be/api/log-events/v1/log",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/register": ""
+      }
+    },
+    "/*": {
+      "target": "https://api-dev.dev.heytelecom.be/api/log-events/v1/log",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/*": ""
+      }
+    },
+    "/": {
+      "target": "https://api-dev.dev.heytelecom.be/api/log-events/v1/log",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/": ""
+      }
+    }
+  }
